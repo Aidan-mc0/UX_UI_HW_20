@@ -1,0 +1,98 @@
+body{
+    margin:0;
+    background-color: #84BF2C;
+}
+.heroImage{
+    justify-content: center;
+    width: 100%;
+    align-content: center;
+    Display:flex;
+}
+h1{
+    color: #1E5116;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+p{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 25px;;
+}
+.aboutNCC{
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 20px;
+    background-color: #d9d9d9;
+}
+.researchUX{
+    background-color: #E1E1E1;
+}
+
+h2{
+    color: #1E5116;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.deliverable{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.information{
+    display: inline-block;
+    padding-bottom: 20px;
+    
+    align-content: center;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.problemStatement{
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #548112;
+}
+h1.problemStatement{
+    color:#FFFFFF;
+}
+p.problemStatement{
+    color:#FFFFFF;
+}
+.content{
+    background-color: #548112;
+}
+.information{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.iterations{
+    background-color: #d9d9d9;
+}
+.mobile{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.web{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}

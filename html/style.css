@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  background-color: #000000;
+}
+header {
+  background-color: #000000;
+  padding: 15px;
+}
+header ul {
+  float: right;
+  color: white;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+
+}
+h1{
+  color:#E06FDC;
+  font-family: "Sonsie One", Open, sans-serif;
+    font-size: 42pt;
+}
+h1.content{
+  color:#54D0EB;
+  font-family: "Sonsie One", Open, sans-serif;
+  font-size: 42pt;
+}
+h3{
+  color:#54D0EB;
+  font-family: "Sonsie One", Open, sans-serif;
+    font-size: 24pt;
+}
+h4{
+  color:#E06FDC;
+  font-family: "Sonsie One", Open, sans-serif;
+  font-size: 24pt;
+}
+.heroImg {
+  justify-content: center;
+  background-color: #000000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+  width:100%;
+}
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #000000;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  padding: 15px;
+  background-color: #54D0EB;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+}
+button:hover, button:focus, button:active {
+  /* swap colors */
+  color: #EBF5FF;
+  background-color: #4312AE;  
+  cursor: pointer; /* displays a hand */
+  transform: scale(1.2);
+}
+footer {
+  background-color: #000000;
+  padding: 5px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+.heading {
+  text-align: center;
+  padding: 15px 5px;
+  font-size: 30px;
+  background-color: #000000;
+}
+/* My UX Skills Section */
+.flexContainer {
+  display: flex;
+  padding: 60px 30px;
+  background-color: #000000;
+}
+p{
+color:#FFFFFF;
+}
+
+.flexContainer div {
+  width: 33%;
+  padding: 25px;
+  border: 5px solid;
+  border-color: #F1EB5A;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+/* My Work Section */
+.myWork {
+  padding: 60px 30px;
+  padding-top: 0;
+  background-color: #000000;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-areas:
+  "img1 content1"
+  "img2 content2"
+  "img3 content3"
+  ;
+}
+.workGrid img {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img1, .img2, .img3, .content1, .content2, .content3 {
+  padding: 80px;
+}
+.content1 {
+  grid-area: content1;
+}
+.content2 {
+  grid-area: content2;
+}
+.content3 {
+  grid-area: content3;
+}
